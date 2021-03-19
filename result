@@ -1,0 +1,5 @@
+Sum Mixed Array 
+
+function sumMix(arr){
+  return arr.map(a => parseInt(a)).reduce((a,b) => a+b);
+};
